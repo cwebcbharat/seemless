@@ -1,0 +1,437 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*FONTS CSS STARTS HERE*/
+@font-face {
+  font-family: 'Roboto-Italic';
+  src: url('../fonts/Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Roboto-Italic.woff') format('woff'),
+	   url('../fonts/Roboto-Italic.ttf')  format('truetype'),
+	   url('../fonts/Roboto-Italic.svg#Roboto-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Roboto-Light.woff') format('woff'),
+	   url('../fonts/Roboto-Light.ttf')  format('truetype'),
+	   url('../fonts/Roboto-Light.svg#Roboto-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Roboto-Medium.woff') format('woff'),
+	   url('../fonts/Roboto-Medium.ttf')  format('truetype'),
+	   url('../fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Roboto-Regular.woff') format('woff'),
+	   url('../fonts/Roboto-Regular.ttf')  format('truetype'),
+	   url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*FONTS CSS ENDS HERE*/
+body {font-family: 'Roboto-Regular';}
+
+.container {padding:0;}
+
+* {margin:0;padding:0;text-decoration:none;transition: all 0.5s ease 0s;-webkit-transition: all 0.5s ease 0s;-moz-transition: all 0.5s ease 0s;-ms-transition: all 0.5s ease 0s;-o-transition: all 0.5s ease 0s;}
+
+/*SLIDER PAGE CSS STARTS HERE*/
+#myCarousel {float: left;width: 100%;height: 100vh;position:relative;background-color:#f2f5f6;}
+.item {height: 100vh;}
+.logo {float:left;width:100%;height:100vh;text-align:center;position:relative;}
+.logo img {position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);}
+.carousel-indicators li {width: 12px;height: 12px;margin: 0px;background-color: #c1c4c5;border: none;}
+.carousel-indicators .active {background-color: #8b999f;}
+.img_all {position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);width:100%;text-align:center;}
+.image_purple {float: left;width: 100%;padding-bottom: 120px;}
+.text {background-color: #fff;padding: 80px 0;float:left;width:100%;}
+.text h5 {font-family: 'Roboto-Medium';color:#8d9ba1;font-size:22px;margin:0;}
+.text p {color:#8d9ba1;font-size:21px;margin:22px 0 0;}
+.image_purple a {width: 415px;height: 60px;display: block;background-color: #e81f2a;margin: 0 auto;color: #fff;font-size: 29px;text-transform: uppercase;line-height: 60px;font-family: 'Roboto-Light';text-decoration:none;box-shadow: 1px 2px 4px #A7A7A7;-webkit-box-shadow: 1px 2px 4px #A7A7A7;-moz-box-shadow: 1px 2px 4px #A7A7A7;-o-box-shadow: 1px 2px 4px #A7A7A7;-ms-box-shadow: 1px 2px 4px #A7A7A7;}
+.image_purple.get_started {padding-bottom:80px;}
+.image_purple a:hover {box-shadow:inherit;}
+/*SLIDER PAGE CSS ENDS HERE*/
+
+/*LOGIN PAGE CSS STARTS HERE*/
+.login_page {float:left;width:100%;height:100vh;position:relative;background-color:#f2f5f6;}
+.login_page .logo_small {position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);text-align:center;}
+.logo_small img {max-width:394px;padding-bottom: 125px;}
+.logo_small form {width: 635px;margin: 0 auto;display: block;}
+.logo_small form .form-group {margin: 0 0 15px;float: left;width: 100%;}
+.logo_small form .form-group input[type="text"] {border: 1px solid #eee;background-color: #fff;float: left;width: 100%;height: 49px;padding: 0 10px;font-size: 17px;color: #bebebe;}
+.logo_small form .form-group.half_column {width: 49%;}
+.form-group input[type="button"] {width: 208px;height: 47px;line-height: 47px;border: none;background-color: #e81f2a;color: #fff;text-transform: uppercase;text-align: center;font-size: 23px;font-family: 'Roboto-Light';float: left;box-shadow: 1px 2px 4px #A7A7A7;-webkit-box-shadow: 1px 2px 4px #A7A7A7;-moz-box-shadow: 1px 2px 4px #A7A7A7;-o-box-shadow: 1px 2px 4px #A7A7A7;-ms-box-shadow: 1px 2px 4px #A7A7A7;}
+.form-group input[type="button"]:hover {box-shadow:inherit;}
+.logo_small .form-group a {float: left;width: 100%;text-align: right;font-family: 'Roboto-Italic';color: #78a2b0;font-size: 15px;margin-bottom: 10px;text-decoration:none;}
+/*LOGIN PAGE CSS ENDS HERE*/
+
+/*ALL POSTS PAGE CSS STARTS HERE*/
+.body_bg {float:left;width:100%;position:relative;}
+.header {float: left;width: 100%;background-color: #e5edf0;padding: 25px;position: relative;z-index: 9;}
+.left_logo, .right_login_person {float: left;width: 50%;}
+.left_logo img {max-width:217px;}
+.right_login_person a {float: right;}
+.right_login_person a img, .right_login_person a p {float: left;margin:0 0 0 20px;line-height: 42px;}
+.right_login_person a p {font-size:17px;color:#000000;}
+.right_login_person a img:last-child {margin:18px 0 0 20px;}
+
+#left_sidebar {width: 191px;height: 100%;background-color: #f2f5f6;position: fixed;padding-top: 94px;z-index: 1;}
+#left_sidebar ul li {float:left;width:100%;list-style:none;text-align:center;}
+#left_sidebar ul li a {display: block;padding: 30px 0;border-bottom: 1px solid #dfeaee;text-decoration: none;}
+#left_sidebar ul li a img {margin:0 0 15px;-webkit-filter: grayscale(100%);-ms-filter: grayscale(100%);-moz-filter: grayscale(100%);-o-filter: grayscale(100%);}
+#left_sidebar ul li a span {display:block;font-size:19px;text-transform:uppercase;color:#828282;}
+#left_sidebar ul li a:hover img {-webkit-filter: grayscale(0%);-ms-filter: grayscale(0%);-moz-filter: grayscale(0%);-o-filter: grayscale(0%);}
+#left_sidebar ul li a:hover span {color:#009688;}
+
+#right_section {float: left;width: 100%;padding-left: 191px;}
+#right_section h3{color:#a6a6a6;padding:55px 0;display:block;border-bottom:1px solid #f5f5f5;text-align: center;font-family: 'Roboto-Light';font-size: 29px;margin: 0;}
+.posts {float: left;width: 100%;}
+.posts a {display:block;padding: 30px;border-bottom: 1px solid #f5f5f5;text-decoration:none;float:left;width:100%;}
+.posts .img {float: left;margin: 0 20px 0 0px;}
+.post_text {float: left;width: 93%;position:relative;}
+.post_text h5 {margin:0;text-transform:uppercase;font-size:16px;color:#592c5f;}
+.post_text p {font-size:16px;margin:0;display:block;color:#a7a7a7;text-decoration:none;}
+.post_text img {position:absolute;right:0;top:20px;transform: rotate(-90deg);-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg);-o-transform: rotate(-90deg);-ms-transform: rotate(-90deg);}
+
+.load_more {float: left;width: 100%;text-align: center;margin-top:70px;}
+.load_more a {width: 233px;height: 68px;background-color: #009688;color: #fff;display: block;margin: 0 auto;line-height: 68px;border-radius: 5px;text-decoration: none;font-size: 30px;font-family: 'Roboto-Light';}
+/*ALL POSTS PAGE CSS ENDS HERE*/
+
+/*ALL POSTS CHAT PAGE CSS STARTS HERE*/
+#left_sidebar.all_chat {width:350px;padding: 120px 25px 25px;}
+#left_sidebar.all_chat ul li a {float: left;width: 100%;padding:14px 10px;border:none;}
+#left_sidebar.all_chat ul li a:hover {background-color:#6b9aab;}
+#left_sidebar.all_chat ul li a:hover span {color:#fff;}
+#left_sidebar.all_chat ul li a img {-webkit-filter: grayscale(0%);-ms-filter: grayscale(0%);-moz-filter: grayscale(0%);-o-filter: grayscale(0%);float: left;margin: 0 20px 0 0px;}
+#left_sidebar.all_chat ul li a span {display: block;font-size: 16px;text-transform: capitalize;color: #000;text-align: left;float: left;line-height: 42px;}
+
+.search_contact {float: left;width: 100%;padding-bottom: 21px;border-bottom: 1px solid #d2e2e7;}
+.search_contact input[type="text"] {background-color: transparent;border: none;color: #000;font-size: 18px;}
+.search_contact input[type="button"] {background-image: url(../images/search-icon.png);width: 25px;height: 25px;background-color: transparent;border: none;float: left;margin: 0 30px 0 0;}
+
+.all_contacts {float: left;width: 100%;padding: 20px 0;border-bottom:1px solid #d2e2e7;}
+.all_contacts p {margin: 0;float: left;font-size: 18px;color: #000;}
+.all_contacts a {float:right;}
+
+#right_section.chat_section {padding-left: 350px;}
+.top_name {float: left;width: 100%;padding: 17px;border-bottom: 1px solid #f2f2f2;}
+.top_name a {float: left;margin: 14px 5px 0 0;}
+.top_name img {float: left;margin: 0 30px 0 0;}
+.top_name .name {float: left;line-height: 43px;font-family: 'Roboto-Medium';font-size: 17px;}
+.chat_box {float: left;width: 100%;padding: 40px 60px;}
+
+.chats {float: left;width: 100%;}
+.chats img {float: left;}
+.chats p {float: right;margin: 0;width: 89%;background-color: #f2f5f6;padding: 12px 15px;font-size:16px;color:#000;position:relative;}
+.chats span {float: right;font-size: 16px;width: 100%;text-align: right;}
+.chats p::before {position: absolute;content: "";left: -15px;top: 13px;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-right: 15px solid #f2f5f6;}
+.chats span i {font-style:normal;color:#592c5f;}
+
+.right .chats img {float: right;}
+.right .chats p {float:left;}
+.right .chats p::before {right: -15px;left: auto;transform: rotate(180deg);-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);-o-transform: rotate(180deg);}
+.right .chats span {float:left;text-align: left;}
+
+.type_message {float: left;width: 100%;border-top: 2px solid #f2f5f6;padding: 24px 60px;position:relative;}
+.type_message textarea {width: 100%;float: left;border: none;background-color: #fff;font-size: 14px;color: #6b9aab;}
+.type_message input[type="button"] {background-image:url(../images/send-icon.png);background-repeat:no-repeat;width:19px;height:17px;border:none;background-color:transparent;position: absolute;top: 25px;right: 60px;}
+/*ALL POSTS CHAT PAGE CSS ENDS HERE*/
+
+
+/*ALL TICKETS PAGE CSS STARTS HERE*/
+.all_tickets .post_text h5 {text-transform:capitalize;font-family: 'Roboto-Medium';font-size:18px;color:#000;}
+.all_tickets .post_text p {font-size:15px;color:#6b6b6b;}
+.all_tickets .post_text span {position: absolute;top: 0;right: 0;font-family: 'Roboto-Medium';color: #000;font-size: 18px;}
+.add_new_filter {float: left;width: 100%;padding: 60px 18px 45px;border-bottom: 1px solid #f5f5f5;}
+.add_new_filter ul {float: left;width: 100%;margin: 0;}
+.add_new_filter ul li {list-style:none;float:left;width:33.33%;font-family: 'Roboto-Medium';color:#000;text-transform:uppercase;font-size:18px;}
+.add_new_filter ul li:first-child {text-align:left;}
+.add_new_filter ul li:nth-child(2n) {text-align:center;}
+.add_new_filter ul li:last-child {text-align:right;}
+.add_new_filter ul li a {color:#000;text-decoration:none;}
+.add_new_filter ul li a img {margin: -7px 18px 0 0px;}
+/*ALL TICKETS PAGE CSS ENDS HERE*/
+
+/*ADD NEW TICKET PAGE CSS STARTS HERE*/
+.new-ticket .top_name .name {text-transform: uppercase;font-size: 18px;}
+.green_heading {float: left;width: 100%;}
+#right_section.new-ticket h3 {padding: 20px 30px;text-align: left;text-transform: uppercase;color: #009688;font-size: 21px;}
+.green_heading ul {float:left;width:100%;margin:0;padding:0 30px;}
+.green_heading ul li {float:left;width:100%;list-style:none;font-family: 'Roboto-Regular';font-size:18px;}
+.green_heading ul li a {color:#747474;padding:35px 0;float:left;width:100%;border-bottom:1px solid #f5f5f5;text-decoration:none;}
+.green_heading ul li.text_bold {font-family: 'Roboto-Medium';}
+.green_heading ul li.text_bold a {color:#000;}
+/*ADD NEW TICKET PAGE CSS ENDS HERE*/
+
+/*TICKET REORDER PAGE CSS STARTS HERE*/
+#right_section.reorder-ticket {padding:0;}
+.reorder-ticket .top_name {border:none;padding: 25px 17px;}
+.reorder-ticket .top_name .name {font-size: 17px;}
+.reorder_div {float: left;width: 100%;padding-bottom: 55px;}
+.medicines {float:left;width:100%;padding:40px 20px 0;border-bottom: 1px solid #ececec;}
+.medicines .form-group {float: left;width: 31%;}
+.reorder_div h2 {float: left;width: 100%;text-align: center;background-color: #e5edf0;margin: 0;font-family: 'Roboto-Light';text-transform: uppercase;font-size: 34px;padding: 17px 0;}
+.medicines .form-group label {position:relative;}
+.medicines .form-group input[type="radio"] + .label-text:before{font-family: "FontAwesome";speak: none;font-style: normal;font-weight: normal;font-variant: normal;text-transform: none;line-height: 1;-webkit-font-smoothing:antialiased;width: 20px;display: inline-block;margin-right: 18px;margin-top: 5px;background-image:url(../images/input_uncheck.png);height:20px;content:"";float: left;}
+.medicines .form-group input[type="radio"]:checked + .label-text:before{background-image:url(../images/input_check.png);animation: effect 250ms ease-in;}
+.medicines .form-group input[type="radio"]:disabled + .label-text{color: #aaa;}
+.medicines .form-group input[type="radio"]:disabled + .label-text:before{content: "\f0c8";color: #ccc;}
+.medicines .form-group input[type="radio"]{position: absolute;right: 9000px;}
+.label-text {font-family: 'Roboto-Medium';font-size: 20px;font-weight: normal;}
+.medicines p {margin: 0;font-size: 17px;color: #000;float:left;}
+.medicines p span {color: #592c5f;}
+.medicines a {float: right;background-color: #009688;width: 41px;height: 41px;border-radius: 50%;color: #fff;text-align: center;line-height: 45px;font-size: 19px;letter-spacing: 2px;	text-decoration: none;margin-top: -7px;}
+.medicines.second_row {padding-top: 23px;}
+.reorder_btn {float:left;width:100%;}
+.reorder_btn a {width:163px;height:59px;background-color:#009688;font-family: 'Roboto-Medium';color:#fff;text-transform:uppercase;text-align:center;line-height:59px;display:block;margin:35px auto 0;border-radius:5px;font-size:20px;text-decoration:none;}
+.medicines strong {font-weight: normal;background-color: #e5edf0;width: 33px;height: 33px;float: left;text-align: center;line-height: 33px;border-radius: 50%;font-size: 17px;color: #000;font-family: 'Roboto-Medium';}
+.second_autofill .medicines p {width: 41%;}
+.second_autofill .reorder_btn a {width:293px;}
+/*TICKET REORDER PAGE CSS ENDS HERE*/
+
+/*CLIENT TICKET PAGE CSS STARTS HERE*/
+.client_ticket {float:left;width:100%;padding:17px;border-bottom: 1px solid #f2f2f2;}
+.client_ticket .top_name, .client_ticket .add_new_filter {width: 50%;border: none;padding: 0;line-height: 55px;}
+.client_ticket .add_new_filter ul li {width: 100%;}
+.client_main_ticket .posts {padding: 0 30px;}
+.client_main_ticket .posts a {padding: 30px 0;}
+/*CLIENT TICKET PAGE CSS ENDS HERE*/
+
+/*CLIENT PAGE CSS STARTS HERE*/
+.clients_tabs {float: left;width: 100%;padding: 54px 20px 26px;border-bottom: 1px solid #f5f5f5;}
+#right_section.clients_main .clients_tabs h3 {padding: 0;text-align: left;border:none;width:50%;text-transform:uppercase;float:left;line-height: 39px;}
+.clients_tabs form {float:left;width:50%;position:relative;}
+.clients_tabs form input[type="text"] {float: right;width: 303px;height: 39px;background-color: #f2f5f6;border: none;font-family: 'Roboto-Italic';font-size: 15px;color: #000;padding: 0 10px;}
+.clients_tabs form input[type="button"] {background-image:url(../images/search-icon.png);background-repeat:no-repeat;width:25px;height:25px;border:none;background-color:transparent;position: absolute;top: 6px;right: 12px;}
+.clients_main .nav.nav-tabs {float: left;width: 100%;border: none;}
+.clients_main .nav-tabs li {margin:0;width:50%;border-bottom:2px solid #e6e6e6;text-align:center;font-size:19px;}
+.clients_main .nav-tabs li.active{border:none;border-bottom:2px solid #019688;}
+.clients_main .nav-tabs li.active a {border-color: transparent;color:#000000;}
+.clients_main .nav-tabs li a {color:#a6a6a6;}
+.clients_main .nav li a {padding: 12px 15px;}
+.tab-content {float: left;width: 100%;}
+.clients_main .accordion-heading a {float: left;width: 100%;padding: 35px 20px;border-bottom: 1px solid #f5f5f5;font-size: 16px;color: #592c5f;text-decoration:none;}
+.clients_main .accordion-body {float: left;width: 100%;}
+.clients_main .accordion-inner {padding: 0 20px;}
+.members {float: left;width: 100%;border-bottom: 1px solid #f5f5f5;padding: 12px 0 10px;}
+.members h4 {margin: 0;float: left;width: 50%;font-size: 16px;color: #000;line-height: 43px;}
+.members img {float:right;}
+.clients_main .accordion-toggle img {float: right;transform: rotate(-90deg);-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg);-ms-transform: rotate(-90deg);-o-transform: rotate(-90deg);}
+.clients_main .accordion-toggle.collapsed img {transform: rotate(0deg);-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);-o-transform: rotate(0deg);}
+.clients_main .team_info {float: left;width: 100%;padding: 25px 20px 10px;border-bottom: 1px solid #f5f5f5;font-size: 16px;}
+.clients_main .team_info a {color: #592c5f;text-decoration:none;}
+.clients_main .team_info a .team_text p {color:#000;}
+.team_info img {float: left;margin: 0 20px 0 0;}
+.team_text {float: left;width: 93%;}
+.team_text h4 {margin: 0;}
+#left_sidebar ul li:hover ul {display:block;}
+#left_sidebar ul li ul li a {border:1px solid transparent;}
+#left_sidebar ul li ul {position: fixed;top: 0;margin-left: 190px;height: 100%;background-color: #eaf0f2;width: 191px;z-index: 999999999;padding-top: 94px;display:none;}
+#left_sidebar ul li ul li a:hover {background-color: #fff;border: 1px solid #F2F5F6;}
+/*CLIENT PAGE CSS ENDS HERE*/
+
+/*CLIENT DETAIL PAGE CSS STARTS HERE*/
+.clients_tabs img {margin: 0 20px 0 0;}
+.take_photo_upload img {float: left;margin: 0 20px 0 0;}
+.take_photo_upload {float: left;width: 100%;padding: 15px 30px;border-bottom: 1px solid #f5f5f5;}
+.take_photo_upload span {float: left;line-height: 55px;font-size: 18px;font-family: 'Roboto-Medium';color: #000;}
+.take_photo_upload .upload {float: right;margin: 10px 0 0 0;}
+.information {float: left;width: 100%;padding: 0 33px;}
+.information ul {float:left;width:100%;margin:0;}
+.information ul li {list-style: none;width: 100%;float: left;color: #000;font-size: 16px;padding: 20px 30px;border-bottom: 1px solid #f5f5f5;}
+.information ul li span {float: right;width: 28%;}
+
+.icons_all {float: left;width: 100%;background-color: #32363e;padding: 35px 0;}
+.icons_all ul {float:left;width:100%;margin:0;}
+.icons_all ul li {float:left;list-style:none;width:25%;text-align:center;padding-bottom:100px;}
+.icons_all ul li span {float:left;width:100%;color:#fff;font-family: 'Roboto-Light';font-size:20px;margin:10px 0 0;}
+.icons_all ul li:nth-child(5n), .icons_all ul li:nth-child(6n), .icons_all ul li:nth-child(7n), .icons_all ul li:nth-child(8n) {padding-bottom:0;}
+/*CLIENT DETAIL PAGE CSS ENDS HERE*/
+
+/*PHARMACIST CORNER CSS STARTS HERE*/
+#home .all_tickets .post_text h5 {line-height: 39px;}
+#home .all_tickets .post_text {line-height: 40px;}
+/*PHARMACIST CORNER CSS ENDS HERE*/
+
+/*EMR PAGE CSS STARTS HERE*/
+#right_section.emr {padding: 0;}
+.border_bottom_unique {float:left;width:100%;padding: 20px 25px;}
+#myCarouse2 .carousel-control {background-image:none;}
+.emr .carousel-inner {width: 320px;margin: 0 auto;}
+.emr .top_name {float: left;width: 30%;border:none;padding: 7px 0 0 0;}
+.emr .slider {float: right;width: 550px;}
+.emr .item {height:inherit;}
+.emr .item p {float:left;width:100%;text-align:center;font-family: 'Roboto-Regular';font-size:24px;color:#000;margin:0;}
+.emr .carousel-indicators li, .emr .carousel-indicators .active {text-indent:0;width:35px;height:29px;border-radius:0;display:inline-block;background-color:transparent;color:#7b9eab;line-height:29px;margin:0 10px 0 0;font-family: 'Roboto-Medium';font-size:17px;}
+.emr .carousel-indicators {bottom: 0;position: relative;text-align: center;float: left;width: 100%;left: 0;top: 0;margin: 0;}
+#right_section.emr .carousel-indicators .active {background-color:#29ddaa;color:#fff;}
+.emr .carousel-indicators li:last-child {margin:0;}
+.emr .carousel-control .glyphicon-chevron-left, .emr .carousel-control .glyphicon-chevron-right {width:inherit;height:inherit;font-size:0;}
+.emr .carousel-control {left:20px;top: 25px;z-index: 99;}
+.emr .carousel-control.right {right:50px;left:auto;}
+
+.emr_heading h2 {float: left;width: 100%;text-align: center;background-color: #e5edf0;margin: 0;font-family: 'Roboto-Light';text-transform: uppercase;font-size: 34px;padding: 17px 0;}
+#right_section.clients_main .accordion-toggle img.left_postiong {float: left;transform: inherit;margin: 0 50px 0 0px;}
+.clients_main .emr_tabs .accordion-heading a.padding_zero {padding-top:10px;}
+.clients_main .emr_tabs .accordion-heading a {padding: 0px 20px 0px;color: #656464;font-size: 20px;line-height: 55px;}
+.clients_main .emr_tabs .accordion-toggle img {margin-top: 25px;}
+.emr_tabs ul li a {text-transform:uppercase;}
+
+.emr_tabs .medicines .form-group label {width: 100%;border-left: 15px solid #4a90e2;margin: 0;padding: 17px 0;}
+.emr_tabs .medicines .form-group.color_2 label {border-left-color:#7ed321;}
+.emr_tabs .medicines .form-group.color_3 label {border-left-color:#417505;}
+.emr_tabs .members {padding: 0;}
+.emr_tabs .medicines .form-group {margin: 0;width: 100%;}
+.emr_tabs .members .label-text {font-family: 'Roboto-Regular';color: #656464;width: 100%;padding-left: 20px;}
+.emr_tabs .medicines .form-group input[type="radio"] + .label-text::before {float:right;}
+.emr_tabs .reorder_btn a {width: 240px;}
+
+.emr_heading.standing_orders {padding-top: 50px;float: left;width: 100%;}
+.standing_orders .left_postiong {float:left;padding:0 0 0 20px;}
+.emr_tabs .standing_orders .members .label-text {padding: 0 0px 0 12px;font-weight: normal;color: #616161;font-size: 18px;line-height: 37px;float: left;width: 96%;}
+.standing_orders .members h4 {float: left;width: 100%;text-transform: uppercase;font-size: 20px;padding: 0 0 15px 20px;}
+
+.img_left_medicine {float: left;}
+.prns .medicines strong {width: inherit;height: inherit;background-color: transparent;font-weight: normal;font-size: 16px;color: #592c5f;font-family: 'Roboto-Regular';text-align: left;	float: none;}
+.label-text i {font-style: normal;display: block;line-height: 15px;font-size: 20px;color: #000;}
+.emr_tabs .standing_orders.prns .members .label-text {width: 94%;padding-top: 10px;}
+.prns .reorder_btn {padding-bottom:50px;}
+
+.by_pass_time .left_postiong {float: left;}
+.emr_tabs .by_pass_time .medicines .form-group label {border: none;}
+.emr_tabs .by_pass_time .members .label-text {line-height: 57px;}
+.emr_tabs .by_pass_time .medicines .form-group input[type="radio"] + .label-text::before {margin-top: 22px;}
+.clients_main .emr_tabs .by_pass_time .accordion-heading a {border-left: 10px solid #4a90e2;}
+.clients_main .emr_tabs .by_pass_time .accordion-heading a.border_2 {border-left-color: #7ed321;}
+.clients_main .emr_tabs .by_pass_time .accordion-heading a.border_3 {border-left-color: #417505;}
+
+.emr_tabs .by_pass_time .standing_orders_next .form-group label {border-left: 15px solid #4a90e2;}
+.emr_tabs .by_pass_time .standing_orders_next .form-group label.border_2 {border-left-color: #7ed321;}
+/*EMR PAGE CSS ENDS HERE*/
+
+/*EMAR PAGE CSS STARTS HERE*/
+.emr_tabs .medicines .form-group.emar label {border: none;}
+.emar .label-text i {text-transform: uppercase;float: left;line-height: 35px;}
+.emr_tabs .standing_orders.prns .members .emar .label-text {width: 100%;text-align: center;}
+/*EMAR PAGE CSS ENDS HERE*/
+
+/*ADMINISTER MEDS CSS STARTS HERE*/
+#right_section.administer_meds {padding:0;}
+.administer_meds .top_name {padding:0;border:none;width: 33.33%;}
+.administer_meds .name strong {font-weight: normal;font-family: 'Roboto-Medium';font-size: 17px;color: #592c5f;display: block;line-height: 17px;}
+.administer_meds .top_name .name {font-family: 'Roboto-Regular';margin-top: 11px;line-height: normal;}
+.administer_meds .add_new_filter ul li:first-child {text-transform: capitalize;text-align: center;}
+.administer_meds .add_new_filter ul {width: 66.67%;margin-top: 15px;}
+.administer_meds .add_new_filter ul li {width:50%;}
+.administer_meds .add_new_filter {padding: 18px 30px;}
+.meds_administer_inner {float: left;width: 100%;padding: 18px 30px;border-bottom: 1px solid #f5f5f5;}
+.meds_administer_inner ul {margin:0;float:left;width:100%;}
+.meds_administer_inner ul li {float:left;width:50%;list-style:none;}
+.meds_administer_inner ul li img {float: left;padding-right: 50px;}
+.meds_administer_inner ul li span {float: left;font-family: 'Roboto-Medium';font-size: 17px;color: #000;}
+.meds_administer_inner ul li span i {display:block;font-style:normal;font-family: 'Roboto-Regular';}
+.administer_meds p {margin: 0;float: left;width: 100%;text-align: center;font-family: 'Roboto-Light';font-size: 22px;color: #592c5f;padding-top: 30px;}
+.administer_meds .adam_wrili p {color:#000;padding: 0 0 0px;}
+.adam_wrili {padding-top: 85px;float: left;width: 100%;}
+.adam_wrili a {width: 249px;height: 59px;background-color: #009688;font-family: 'Roboto-Medium';color: #fff;text-transform: uppercase;text-align: center;line-height: 59px;display: block;margin: 35px auto 0;border-radius: 5px;font-size: 20px;text-decoration: none;}
+.adam_wrili.double_check a {width:320px;margin:80px auto 0;}
+.administer_meds .adam_wrili.double_check p {background-color: #f2f5f6;padding: 10px 0;}
+.adam_wrili.double_check {float:left;width:100%;padding-bottom:30px;}
+
+button.close {padding: 10px 10px;position: relative;z-index: 9;}
+.modal-content {border-radius:0;box-shadow:inherit;}
+.modal-body h4 {margin: 0 0 20px;text-align: center;float: left;width: 100%;color: #009688;font-family: 'Roboto-Light';padding: 10px 0;border-bottom: 2px solid #f3f3f3;font-size: 26px;
+text-transform: uppercase;}
+.modal-body form, .modal-body, .modal-content {float: left;width: 100%;}
+.modal-body {margin-top:-30px;}
+.modal-body input[type="text"] {float: left;width: 100%;background-color: #e5edf0;border: none;height: 42px;}
+.modal-body label {font-weight: normal;color: #616161;font-size: 16px;text-transform: capitalize;}
+.modal-body .form-group input[type="button"] {float: left;width: 151px;border: none;background-color: #fff;box-shadow: inherit;border: 2px solid #b2b2b2;color: #616161;font-size: 19px;	margin-top: 20px;}
+.modal-body .form-group input[type="button"]:last-child {float:right;background-color:#009688;border:none;color:#fff;}
+#myModal1 .form-group:nth-child(2n+2) {margin-top: 10px;}
+#myModal1 .form-group {float: left; width: 100%;}
+/*ADMINISTER MEDS CSS ENDS HERE*/
+
+/*DOCUMENT PAGE CSS STARTS HERE*/
+.documents span.name {text-transform:uppercase;}
+.title_uploaded {float: left;width: 100%;border-bottom: 1px solid #f2f2f2;padding: 25px 30px;}
+.title_uploaded h4 {margin: 0;color: #009688;text-transform: uppercase;font-size: 21px;}
+.documents_main .post_text {width: 100%;}
+/*DOCUMENT PAGE CSS ENDS HERE*/
+
+@media (max-width:1199px) {
+.emr .top_name {width: 34%;}
+}
+
+@media (max-width:991px) {
+.emr .top_name {width: 23%;}
+.top_name .name {font-size: 14px;}
+.emr_tabs .standing_orders .members .label-text {width:91%;}
+.emr_tabs .standing_orders.prns .members .label-text {width: 86%;}
+}
+
+@media (max-width:767px) {
+.emr .top_name {width: 100%;}
+.emr .slider {width: 100%;padding-top: 50px;}
+}
+
+@media (max-width:700px) {
+.emr_tabs .standing_orders .members .label-text {width: 87%;line-height: 35px;}
+.emr_tabs .by_pass_time .medicines .form-group input[type="radio"] + .label-text::before {margin-top: 10px;}
+.emr_tabs .standing_orders.prns .members .label-text {width: 82%;}
+.emar .label-text i {width:100%;}
+.emr_tabs .standing_orders.prns .members .emar .label-text {text-align:left;}
+.emar .label-text i {line-height: 13px;float: none;}
+.emr_tabs .medicines .form-group.emar input[type="radio"] + .label-text::before {margin-top:10px;}
+.administer_meds .add_new_filter ul {width: 100%;margin-top: 40px;}
+.administer_meds .add_new_filter ul li:first-child {text-align:left;}
+.administer_meds .top_name {width:100%;}
+.meds_administer_inner ul li {width: 100%;margin-bottom: 50px;}
+.meds_administer_inner ul li:last-child {margin:0;}
+.administer_meds p {font-size:15px;}
+.adam_wrili.double_check a {width: 270px;font-size: 17px;}
+.administer_meds .add_new_filter ul li a img {margin: -7px 8px 0 0px;}
+.administer_meds .add_new_filter ul li {font-size: 12px;}
+.meds_administer_inner ul li img {padding-right: 30px;}
+.title_uploaded {padding: 15px 5px;}
+.title_uploaded h4 {font-size:16px;}
+.client_main_ticket .posts {padding: 0 10px;}
+.add_new_filter ul li {font-size: 11px;}
+.add_new_filter ul li a img {margin: -7px 8px 0 0px;}
+}
+
+@media (max-width:560px) {
+.emr_tabs .standing_orders.prns .members .label-text {width: 100%;}
+}
+
+@media (max-width:479px) {
+.emr .carousel-control .glyphicon-chevron-left, .emr .carousel-control .glyphicon-chevron-right {display:none;}
+.clients_main .emr_tabs .accordion-heading a {font-size: 16px;}
+#right_section.clients_main .accordion-toggle img.left_postiong {margin: 0 20px 0 0px;}
+.label-text, .standing_orders .members h4 {font-size: 17px;}
+.emr .carousel-indicators li, .emr .carousel-indicators .active {margin: 0 0px 0 0;}
+.emr_tabs .standing_orders .members .label-text {width:100%;}
+.emr_tabs .standing_orders .medicines .form-group input[type="radio"] + .label-text::before {margin-top:10px;}
+.emr .carousel-inner {width:100%;}
+.top_name img {margin: 0 18px 0 0;}
+.left_logo img {max-width: 100%;}
+.right_login_person a img {max-width: 30px;}
+.right_login_person a img, .right_login_person a p {margin: 0 0 0 11px;line-height: 34px;}
+.right_login_person a p {font-size:13px;}
+.right_login_person a img:last-child {margin: 14px 0 0 8px;}
+.left_logo {margin-top: 6px;}
+.modal-body .form-group input[type="button"] {width:100%;}
+}
